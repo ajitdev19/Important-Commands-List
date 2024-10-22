@@ -1,11 +1,11 @@
 Commands To Run Consumer-Producer flow in Apache kafka server:
 --------------------------------------------------------------------
 Producer-Consumer Flow:
-
+----------------------
 1. Start Zookeeper
 2. Start Kafkaserver
 3. Create a Topic
-
+-------------------
 1) .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties --> To start the Zookeeper in windows enviornment
   Default Port for Zookeeper : 2181
   
@@ -17,6 +17,8 @@ Producer-Consumer Flow:
 4).\bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --list --> To list out how many topics are there on the server
 
 5) .\bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --describe --topic demo-topic --> to describe the topic
+
+
 
 6) .\bin\windows\kafka-console-producer.bat --topic test-topic --bootstrap-server localhost:9092 --> To Start the Kafka producer
 
