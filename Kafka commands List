@@ -18,8 +18,6 @@ Producer-Consumer Flow:
 
 5) .\bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --describe --topic demo-topic --> to describe the topic
 
-
-
 6) .\bin\windows\kafka-console-producer.bat --topic test-topic --bootstrap-server localhost:9092 --> To Start the Kafka producer
 
 7) .\bin\windows\kafka-console-consumer.bat --topic test-topic --from-beginning --bootstrap-server localhost:9092 --> To Start the Kafka Consumer, to listen from Beginning
